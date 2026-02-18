@@ -1,0 +1,12 @@
+Mild Cognitive Impairment (MCI) is introduced as a prodromal (pre-dementia) stage of AD, where individuals show mild cognitive symptoms but can still manage daily activities.
+MCI patients face a significantly higher risk of progressing to AD, with annual conversion rates of 10–15%; around 80% eventually convert to AD within about 6 years.
+A major research focus is identifying biomarkers to distinguish MCI converters (those who progress to AD) from MCI non-converters (those who remain stable).
+->Various machine learning approaches, especially Support Vector Machines (SVM), 
+have been widely used for MCI-to-AD conversion prediction, with reported performances such as:
+1.SVM-based methods achieving accuracies around 73.9% to 79.4%, with varying sensitivity and specificity.
+2.Other techniques like linear discriminant analysis (LDA) or multi-modality integration (e.g., MRI, CSF biomarkers, cognitive tests, APOE ε4 status)
+ yielding accuracies in the 63–79% range.
+
+
+******
+The study proposes a multimodal recurrent neural network (RNN)—a deep learning method—using data from the ADNI cohort to predict MCI-to-AD conversion.
